@@ -1,0 +1,45 @@
+.containerNavbar {
+  border-bottom: 1px solid #ffffff;
+  float: left;
+  /*font: bold 11px/16px arial, helvetica, sans-serif;*/
+  font: red hat display;
+  width: 100%;
+  background-color: #003473;
+  color: white;
+}
+
+.containerNavbar .logoNavbar {
+  display: inline-block;
+  justify-content: center;
+}
+
+.containerNavbar .link a {
+  height: 25%;
+  padding-top: 40px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-flex;
+  text-align: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.containerNavbar button {
+  text-align: center;
+  text-decoration: none;
+  display: inline-flex;
+  text-align: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.logoNavbar {
+  width: 20%;
+  justify-content: center;
+  text-align: center;
+}
+
+.link {
+  display: inline-block;
+}

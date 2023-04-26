@@ -1,0 +1,79 @@
+.videoContainer {
+  position: relative;
+  display: inline-block;
+}
+
+.myButton {
+  position: absolute;
+  top: 70%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  background-color: #ff7e54;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  right: 0px;
+  bottom: 110px;
+  width: 70px;
+  height: 70px;
+  z-index: 100;
+}
+
+.joinUs {
+  display: inline-block;
+  position: absolute;
+  top: 78%;
+  left: 86.7%;
+  transform: translate(-50%, -50%);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+
+  right: 0px;
+  bottom: 110px;
+  width: 200px;
+  height: 57px;
+  z-index: 100;
+  color: grey;
+
+  font-size: 22px;
+  vertical-align: middle;
+}
+
+.joinUs img {
+  border-radius: 15px;
+  float: left;
+  background-color: #5ad3df;
+}
+
+.joinUs img:hover {
+  background-color: #ff7e54;
+}
+
+.mouseImage {
+  display: inline-block;
+  position: absolute;
+  top: 73%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.verticalLineVideo {
+  display: inline-block;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+
+  border-left: 5px solid #FF7E54;
+  height: 100px;
+  margin: 0 auto;
+  width: 2px;
+}

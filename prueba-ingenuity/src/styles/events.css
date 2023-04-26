@@ -1,0 +1,106 @@
+.logo {
+  justify-content: center;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  justify-content: center;
+  margin-top: 15px;
+  color: #245086;
+  font: Red Hat Display, Bold;
+}
+
+.events {
+  justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+  padding-top: 25px;
+}
+
+.events .div {
+  border-radius: 25%;
+  opacity: 0.5;
+}
+
+.events img {
+  opacity: 0.5;
+}
+
+.events > button > p.textEvent:nth-child(1) {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+
+  color: #ffffff;
+  font-weight: 900;
+}
+
+.events > button > div.verticalLineEvents {
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+
+  border-left: 5px solid #ff7e54;
+  height: 100px;
+  margin: 0 auto;
+  width: 2px;
+}
+
+.textEvent {
+  color: white;
+  font-size: xx-large;
+}
+
+.moreEvents {
+  justify-content: center;
+  text-align: center;
+}
+
+.moreEvents > button {
+  background-color: #ff7e54;
+  color: #ffffff;
+  border: none;
+  width: 170px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.moreEvents > p {
+  margin-top: 50px;
+  font-size: large;
+  font-family: Poppins, Light;
+  color: black;
+}
+
+.events > button {
+  width: 300px;
+  height: 400px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 20px;
+  opacity: 0.6;
+  zoom: 1;
+}
+
+div.lineNextPage {
+  left: 50%;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+
+  border-left: 3px solid #ff7e54;
+  height: 156px;
+  width: 1px;
+  margin: 0 auto;
+}

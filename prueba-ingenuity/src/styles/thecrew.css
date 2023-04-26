@@ -1,0 +1,111 @@
+.mainCrew {
+  background-color: #f5f5f5;
+}
+
+.contCrew {
+  margin-top: 50px;
+  justify-content: center;
+  text-align: center;
+}
+
+.titleTheCrew {
+  display: flex;
+}
+
+.titleThe {
+  font-size: 107px;
+  color: #154e85;
+}
+
+.titleCrew {
+  display: block;
+  color: #ff7e54;
+  font-size: 107px;
+  margin-left: 15px;
+}
+
+p.textEntry {
+  font-size: 12px;
+}
+
+.btnLearnMore {
+  display: block;
+  justify-content: center;
+  text-align: center;
+
+  margin-top: 10px;
+
+  background-color: #ff7e54;
+  color: #ffffff;
+  border: none;
+  width: 170px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.imgTogether {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-radius: 38px;
+}
+
+.card {
+  border-radius: 50%;
+  display: flex;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  cursor: pointer;
+
+  width: 800px;
+  height: 300px;
+}
+
+.imgIcon {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Number {
+  text-align: center;
+  font-size: 63px;
+  color: #ff7e54;
+}
+
+.textAfterNumber {
+  text-align: center;
+  font-size: 20px;
+  color: #235286;
+}
+
+.lineVerticalCrew {
+  border-left: 5px solid rgb(2, 99, 135);
+  height: 100px;
+  margin: 0 auto;
+  width: 2px;
+}
+
+div.lineNextPageCrew {
+  left: 50%;
+  top: 50%;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+
+  border-left: 3px solid #ff7e54;
+  height: 156px;
+  width: 1px;
+  margin: 0 auto;
+}
+
+.mainCrew .card{
+  border-radius: 15px;
+}
