@@ -1,11 +1,25 @@
-import "../styles/thecrew.css";
+import { useState } from "react";
 
 import theCrew from "../rsrc/images/thecrew-img.png";
 import together from "../rsrc/images/together.svg";
 import togetherPlus from "../rsrc/images/togetherplus.svg";
 import happyFace from "../rsrc/images/happyface.svg";
 
+import onlineComunication from "../rsrc/images/online-communication.png";
+
+import "../styles/thecrew.css";
+
 function TheCrew() {
+  const [showTooltip, setShowTooltip] = useState(false);
+
+  const handleMouseOver = () => {
+    setShowTooltip(onlineComunication);
+  };
+
+  const handleMouseLeave = () => {
+    setShowTooltip(theCrew);
+  };
+
   return (
     <>
       <div className="mainCrew">
@@ -31,7 +45,15 @@ function TheCrew() {
             </div>
             <div className="col">
               <div className="imgTogether">
-                <img src={theCrew} alt="" width={600} height={500} />
+                {
+                  <img
+                    src={showTooltip}
+                    onMouseOver={handleMouseOver}
+                    onMouseLeave={handleMouseLeave}
+                    width={600}
+                    height={500}
+                  />
+                }
               </div>
             </div>
           </div>

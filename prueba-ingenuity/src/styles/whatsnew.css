@@ -1,15 +1,16 @@
 .mainWhatsNew {
-  border-radius: 25%;
+  border-radius: 20%;
   background: linear-gradient(#003473, #08bdab);
 }
 
-/*.containerMoreItems {
-}*/
-
-.titleWhatsNew {
-  display: flex;
+.mainTitle {
+  display:flex;
   justify-content: center;
   text-align: center;
+}
+
+.titleWhatsNew{
+  display: flex;
 }
 
 .titleWhats {
@@ -40,32 +41,84 @@
   margin-right: 90px;
 }
 
-img {
-  border-radius: 25px;
-}
-
-.whatsNew > button > p.dateWhatsNew {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  border: none;
-  border-radius: 30px;
-  cursor: pointer;
-  font-weight: 900;
-}
-
-.whatsNew > button {
-  width: 300px;
-  height: 400px;
-  margin-left: 10px;
-  border: none;
-  border-radius: 20px;
-  zoom: 1;
-}
-
-.blog {
+.conatainerBlogWhatsNew > .col > .textWhatsNew {
   display: inline-block;
-  top: 50%;
-  left: 40%;
-  right: 50%;
+  position: relative;
+  top: -61.8%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+
+.conatainerBlogWhatsNew > .col:nth-child(1):hover > .textWhatsNew,
+.conatainerBlogWhatsNew > .col:nth-child(2):hover > .textWhatsNew,
+.conatainerBlogWhatsNew > .col:nth-child(3):hover > .textWhatsNew,
+.conatainerBlogWhatsNew > .col:nth-child(4):hover > .textWhatsNew {
+  display: inline-block;
+  position: relative;
+  top: -28.5%;
+  left: 53%;
+  transform: translate(-50%, -50%);
+  transition-delay: 0.0001s;
+}
+
+.dateWhatsNew {
+  background-color: #ff7e54;
+  width: 100px;
+}
+
+.dayWhatsNew {
+  font-size: 24pt;
+  font: Poppins, Bold;
   color: #ffffff;
+  text-align: center;
+  font-weight: 700;
+}
+
+.monthYearWhatsNew {
+  font-size: 18pt;
+  font: Poppins, Medium;
+  color: #f5f5f5;
+  text-align: center;
+}
+
+.nameWhatsNew {
+  font-size: 14px;
+  font: Poppins, Regular;
+  color: #f5f5f5;
+}
+
+.blogWhatsNew {
+  font-size: 35px;
+  font: Poppins, Bold;
+  color: #f5f5f5;
+}
+
+.contentWhatsNew {
+  font-size: 16px;
+  font: Poppins, Light;
+  color: #f5f5f5;
+}
+
+.seeMoreWhatsNew {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: flex-start;
+  flex-direction: row;
+  text-align: center;
+
+  font-size: 16px;
+  font: Helvetica, Bold;
+  color: #003473;
+  border-radius: 21px;
+  background-color: #5ad3df;
+  font-weight: 600;
+  width: 150px;
+  height: 35px;
+}
+
+div.lineNextPageWhatsNew {
+  border-left: 3px solid #ff7e54;
+  height: 156px;
+  width: 1px;
+  margin: 0 auto;
 }

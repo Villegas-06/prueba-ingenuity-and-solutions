@@ -1,0 +1,70 @@
+.conatiner {
+  display: flex;
+  justify-content: center;
+  margin-top: 8%;
+}
+
+.joinUsMain {
+  border-radius: 46px;
+  background-color: #f5f5f5;
+  height: 80%;
+  width: 80%;
+  display: inline-block;
+  align-items: center;
+}
+
+.mainTitle {
+  display: flex;
+}
+
+.mainTitle .join {
+  font-size: 107px;
+  color: #245086;
+}
+
+.mainTitle .us {
+  font-size: 107px;
+  color: #ff7e54;
+  margin-left: 15px;
+}
+
+.textAfterJoinUs > p {
+  font-size: 20px;
+  color: #285c58;
+}
+
+.msgFormJoinUs {
+  height: 100px;
+}
+
+#formJoinUs > input {
+  margin-top: 5px;
+  border-radius: 28px;
+  border: #707070;
+  width: 80%;
+  text-align: center;
+  justify-content: center;
+}
+
+.buttonSend {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.buttonSend > button {
+  border-radius: 22px;
+  border: none;
+  width: 40%;
+  height: 60%;
+  color: #fafafa;
+  background-color: #ff7e54;
+
+  font-weight: 400;
+}
+
+.containerImg {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}

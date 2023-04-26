@@ -1,0 +1,88 @@
+.mainFooter {
+  background-color: #245086;
+  margin-top: 5%;
+}
+
+.infoLogo > p {
+  font: Helvetica, Regular;
+  font-size: 26px;
+  color: #ffffff;
+}
+
+.emailFooter {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.emailFooter > p {
+  font-size: Helvetica, Regular;
+  font-size: 18px;
+  color: #ffffff;
+  margin-left: 5px;
+  margin-top: 15px;
+}
+
+.telFooter {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.telFooter > p {
+  font-size: Helvetica, Regular;
+  font-size: 18px;
+  color: #ffffff;
+  margin-left: 5px;
+  margin-top: 15px;
+}
+
+.textFooter {
+  font: Poppins, Bold;
+  font-size: 25px;
+  color: #ffffff;
+
+  font-weight: 400;
+}
+
+.suscribe {
+  justify-content: center;
+  text-align: center;
+}
+
+.formSuscribeFooter > input {
+  margin-top: 5px;
+  border-radius: 28px;
+  border: #707070;
+  width: 70%;
+  height: 90%;
+  text-align: center;
+}
+
+.containerButtonSend {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.containerButtonSend > button {
+  border-radius: 22px;
+  border: none;
+  width: 40%;
+  height: 60%;
+  color: #fafafa;
+  background-color: #ff7e54;
+
+  font-weight: 600;
+}
+
+.copyFooter {
+  background-color: #ff7e54;
+  border: #707070;
+  border-radius: 1px;
+}
+
+.copyFooter .textFooter {
+    font: Helvetica, Regular;
+    font-size: 16px;
+}

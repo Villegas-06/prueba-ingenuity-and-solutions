@@ -2,6 +2,9 @@
   position: relative;
   display: inline-block;
 }
+.containerVideo > .row .videoContainer{
+  display: block;
+}
 
 .myButton {
   position: absolute;
